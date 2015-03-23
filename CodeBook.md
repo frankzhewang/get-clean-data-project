@@ -1,4 +1,4 @@
-# Code Book for `HAR_tidy.txt`
+# Code Book for [`HAR_tidy.txt`](HAR_tidy.txt)
 
 ## Summary
 
