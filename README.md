@@ -23,6 +23,8 @@ source("run_analysis.R")
 
 A file named `HAR_tidy.txt` will be generated in your R working directory.
 
+For data processing details, please refer to the commented and self-explanatory R script [`run_analysis.R`](run_analysis.R).
+
 ## View the tidy data set in R
 
 You can copy `HAR_tidy.txt` into your R working directory and use the following code to read the tidy data set into R and view it:
