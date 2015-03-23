@@ -17,7 +17,9 @@ You can reproduce the analysis to get the tidy data set as follows:
 1. Download the raw data set;
 2. Unzip the downloaded file into your R working directory; the files should be under a folder named "UCI HAR Dataset";
 3. Run the following code in R:
-	source("run_analysis.R")
+```R
+source("run_analysis.R")
+```
 
 The next section discusses how to view `HAR_tidy.txt` in R.
 
@@ -25,5 +27,7 @@ The next section discusses how to view `HAR_tidy.txt` in R.
 
 You can copy `HAR_tidy.txt` into your R working directory and use the following code 
 read the tidy data set into R and view it:
-	df <- read.table("HAR_tidy.txt", header = TRUE)
-	View(df)
+```R
+df <- read.table("HAR_tidy.txt", header = TRUE)
+View(df)
+```
